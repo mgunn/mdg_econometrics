@@ -1,0 +1,10 @@
+
+(0) All code here is provided as is with no guarantees that it's robust, works, etc.... Some of the code may be helpful/illustrative.
+
+(1) Compiling mg_getRowsWithKey with mex
+
+Some of the code here uses mg_getRowsWithKey.cpp and you want to compile that using mex. You want to setup mex and issue the command "mex -largeArrayDims  mg_getRowsWithKey.cpp"
+
+Eg. from the command line run something like
+
+matlab -nodisplay -nosplash -r "mex -largeArrayDims  mg_getRowsWithKey.cpp; exit"
